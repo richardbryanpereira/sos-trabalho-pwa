@@ -33,3 +33,4 @@ With it you get an app that:
 - Uses the [Azure Static Web Apps CLI](https://azure.github.io/static-web-apps-cli) which enables emulating your production environment locally, and gets you ready for deploying to Azure Static Web Apps!
 
 and all with just a few button clicks 😊.
+"# sos-trabalho-pwa" 
