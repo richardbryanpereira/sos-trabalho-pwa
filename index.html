@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <meta name="theme-color" content="#2e58a4" />
+
+    <meta
+      name="description"
+      content="SOS Trabalho - Encontre oportunidades de trabalho"
+    />
+
+    <link rel="manifest" href="/manifest.json" />
+
+    <title>SOS Trabalho</title>
+  </head>
+
+  <body>
+    <!-- ═══════════════════════════════════════
+         NAVBAR
+    ═══════════════════════════════════════ -->
+
+    <header class="navbar">
+      <div class="logo">
+        <a href="/">
+          <img
+            src="/assets/img/logotipo-sos-trabalho-sem-fundo.png"
+            alt="SOS Trabalho Logo"
+          />
+        </a>
+      </div>
+
+      <nav>
+        <ul>
+          <li>
+            <a href="/" class="ativo"> Início </a>
+          </li>
+
+          <li>
+            <a href="/vagas.html"> Vagas </a>
+          </li>
+
+          <li>
+            <a href="/empresas.html"> Empresas </a>
+          </li>
+
+          <li>
+            <a href="/perfil.html"> Perfil </a>
+          </li>
+
+          <li>
+            <a href="/anunciar.html"> Anunciar Vaga </a>
+          </li>
+
+          <li>
+            <a href="/login.html"> Login </a>
+          </li>
+
+          <li>
+            <a href="/cadastro.html" class="btn-cadastrar"> Cadastre-se </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- ═══════════════════════════════════════
+         HERO
+    ═══════════════════════════════════════ -->
+
+    <section class="hero">
+      <div class="hero-slider">
+        <div
+          class="slide active"
+          style="background-image: url('/assets/img/carrosel-um.jpg')"
+        ></div>
+
+        <div
+          class="slide"
+          style="background-image: url('/assets/img/carrosel-dois.jpg')"
+        ></div>
+
+        <div
+          class="slide"
+          style="background-image: url('/assets/img/carrosel-tres.jpg')"
+        ></div>
+      </div>
+
+      <div class="hero-content">
+        <h1>Encontre as melhores vagas de emprego</h1>
+
+        <form action="/vagas.html" method="GET" class="search-box">
+          <input
+            type="text"
+            name="busca"
+            id="input-busca"
+            placeholder="Vaga ou palavra-chave"
+          />
+
+          <button type="submit" id="buscar">Buscar</button>
+        </form>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         CATEGORIAS
+    ═══════════════════════════════════════ -->
+
+    <section class="categorias">
+      <h2>Categorias Populares</h2>
+
+      <div class="categorias-container">
+        <a href="/vagas.html?categoria=1" class="categoria">
+          <div class="categoria-icone">C</div>
+
+          <p>Construção</p>
+        </a>
+
+        <a href="/vagas.html?categoria=2" class="categoria">
+          <div class="categoria-icone">L</div>
+
+          <p>Limpeza</p>
+        </a>
+
+        <a href="/vagas.html?categoria=3" class="categoria">
+          <div class="categoria-icone">E</div>
+
+          <p>Entregas</p>
+        </a>
+
+        <a href="/vagas.html?categoria=4" class="categoria">
+          <div class="categoria-icone">S</div>
+
+          <p>Serviços</p>
+        </a>
+
+        <a href="/vagas.html?categoria=5" class="categoria">
+          <div class="categoria-icone">T</div>
+
+          <p>Tecnologia</p>
+        </a>
+
+        <a href="/vagas.html?categoria=6" class="categoria">
+          <div class="categoria-icone">O</div>
+
+          <p>Outros</p>
+        </a>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         EMPRESAS PARCEIRAS
+    ═══════════════════════════════════════ -->
+
+    <section class="empresas">
+      <h2>Empresas Parceiras</h2>
+
+      <div class="empresas-container">
+        <img src="/assets/img/google-logo.png" alt="Logo Google" />
+
+        <img src="/assets/img/nubank-logo.png" alt="Logo Nubank" />
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         DEPOIMENTO
+    ═══════════════════════════════════════ -->
+
+    <section class="depoimento">
+      <h2>O que dizem nossos usuários</h2>
+
+      <div class="depoimentodousuario">
+        <img src="/assets/img/homem.jpeg" alt="Imagem do Usuário" />
+
+        <div>
+          <h3>Lucas Alexandre</h3>
+
+          <p class="cargo">Design</p>
+
+          <p class="texto">
+            "Consegui o emprego dos sonhos graças à SOS Trabalho, o site me
+            mostrou uma vaga perfeita para minha carreira."
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ═══════════════════════════════════════
+         FOOTER
+    ═══════════════════════════════════════ -->
+
+    <footer class="footer">
+      <div class="footer-content">
+        <div class="footer-left">
+          <img
+            src="/assets/img/logotipo-sos-trabalho-sem-fundo.png"
+            alt="SOS Trabalho Logo"
+            class="footer-img"
+          />
+        </div>
+
+        <div class="footer-center">
+          <p>© 2026 SOS Trabalho. Todos os direitos reservados.</p>
+        </div>
+      </div>
+    </footer>
+
+    <!-- JAVASCRIPT DO VITE -->
+    <script type="module" src="/src/main.js"></script>
+  </body>
+</html>
+
